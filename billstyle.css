@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.bill-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+.bill-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.bill-table th, .bill-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.bill-table th {
+    background-color: #f2f2f2;
+}
+
+/* Style for the "Save Bill" button */
+#save-bill-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-content: center;
+}
+
+#save-bill-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the center container */
+.center-container {
+    text-align: center;
+    margin-top: 100px; /* Adjust the margin as needed to vertically center the button */
+}
+
+/* Style for the centered button */
+#center-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#center-button:hover {
+    background-color: #323538;
+}
